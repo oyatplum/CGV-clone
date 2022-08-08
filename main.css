@@ -106,6 +106,13 @@ li{
     width: 980px;
     margin: 0 auto;
 }
+#checkbox{
+    width: 980px;
+    margin: 0 auto;
+    color:#666;
+    font-size: 12px;
+    margin-top:15px;
+}
 /* ********** main movie-chart ********** */
 .movie-chart{
     width: 980px;
@@ -182,4 +189,33 @@ li{
 #abc-blueday{
     margin-top: 15px;
     margin-bottom: 5px;
+}
+/* ************************************************ footer *************************************************** */
+/* ********** card-ad ********** */
+.card-ad{
+    margin-top:80px;
+    height: 250px;
+}
+.policy-list{
+    width: 980px;
+    margin: 0 auto;
+}
+.policy-list ul{
+    padding-inline-start: 0;
+}
+.policy-list li{
+    font-size:13px;
+    font-weight: 600;
+    color:#666;
+    padding: 0 13px 10px 5px;
+}
+.company-info{
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+.company-info p{
+    font-size: 12px;
+    color: #666;
+    line-height: 0.5;
 }
