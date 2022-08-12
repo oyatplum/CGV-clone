@@ -48,7 +48,8 @@
                         </ul>
                     </div>
                     <div class = 'search'>
-                        <!-- 검색창 -->
+                            <input type = "text" id = "text" placeholder = " ">
+                            <img src = "images/search.png">
                     </div>
                 </div>
                 <div class = "main-hr2"><hr></div>
@@ -63,8 +64,20 @@
                 </ul>
             </div>
             <div class = "chart-hr1"><hr></div>
-            <div id ="checkbox">
-                <input type = "checkbox"> 현재 상영작만 보기
+            <div class = "sorting1">
+                <div id ="checkbox">
+                    <input type = "checkbox"> 현재 상영작만 보기
+                </div>
+                <div class = "order-type1" id = "order-type1">
+                    <select>
+                        <option>예매율순</option>
+                        <option>평점순</option>
+                        <option>관람객순</option>
+                    </select>
+                </div>
+                <div class = "order-type1" id = "go-button1">
+                    <button>GO</button>
+                </div>
             </div>
         <!-- 무비 차트 -->
             <div class ="movie-chart" id = "movies">
@@ -484,7 +497,7 @@
                         <li><a href = "http://corp.cgv.co.kr/company/advertize/ad_Default.aspx"></a>광고/제휴/출점문의</li>
                         <li><a href = "http://www.cgv.co.kr/rules/service.aspx"></a>이용약관</li>
                         <li><a href = "http://www.cgv.co.kr/rules/organized.aspx"></a>편성기준</li>
-                        <li><a href = "http://www.cgv.co.kr/rules/privacy.aspx" text-decoration = "underline"></a>개인정보처리방침</li>
+                        <li><a href = "http://www.cgv.co.kr/rules/privacy.aspx" text-decoration = "underline"></a><u style = "color : black;">개인정보처리방침</u></li>
                         <li><a href = "http://www.cgv.co.kr/rules/disclaimer.aspx"></a>법적고지</li>
                         <li><a href = "http://www.cgv.co.kr/rules/emreject.aspx"></a>이메일주소무단수집거부</li>
                         <li><a href = "http://corp.cgv.co.kr/company/ethicalManagement/ceoMessage.aspx"></a>윤리경영</li>
@@ -493,11 +506,48 @@
                 </div>
                 <!-- <div class = "footer-hr"><hr></div> -->
                 <div class = "company-info">
-                    <p>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</p>
-                    <p>대표이사 : 허민회 · 사업자등록번호: 104-81-45690 · 통신판매업신고번호: 2017-서울용산-0062 사업자정보확인</p>
-                    <p>호스팅사업자 : CJ올리브네트윅스 · 개인정보보호 책임자 : 심준범 · 대표이메일 : cjcgvmaster@cj.net</p>
-                    <p>© CJ CGV. All Rights Reserved</p>
-                </div>
+                    <div id = "company-info">
+                        <ul>
+                            <li>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</li>
+                            <li>대표이사 : 허민회 · 사업자등록번호: 104-81-45690 · 통신판매업신고번호: 2017-서울용산-0062 사업자정보확인</li>
+                            <li>호스팅사업자 : CJ올리브네트윅스 · 개인정보보호 책임자 : 심준범 · 대표이메일 : cjcgvmaster@cj.net</li>
+                            <li>© CJ CGV. All Rights Reserved</li>
+                        </ul>
+                    </div>
+                    <div class = "sorting2">
+                        <div class = "order-type2" id = "order-type2">
+                            <select>
+                                <option>계열사 바로가기</option>
+                                <optgroup label = "CJ그룹">
+                                    <option>CJ주식회사</option>
+                                </optgroup>
+                                <optgroup label = "식품 & 식품 서비스">
+                                    <option>CJ제일제당</option>
+                                    <option>CJ푸드빌</option>
+                                    <option>CJ프레시웨이</option>
+                                </optgroup>
+                                <optgroup label = "생명공학">
+                                    <option>CJ제일제당 BIO사업부문</option>
+                                    <option>CJ Feed&Card</option>
+                                </optgroup>
+                                <optgroup label = "물류 & 신유통">
+                                    <option>CJ대한통운</option>
+                                    <option>CJ대한통운 건설부문</option>
+                                    <option>CJ올리브영</option>
+                                    <option>CJ올리브 네트웍스</option>
+                                    <option>CJ ENM 커머스부문</option>
+                                </optgroup>
+                                <optgroup label = "엔터테인먼트 & 미디어">
+                                    <option>CJ ENM 엔터테인먼트부문</option>
+                                    <option>CJ CGV</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class = "order-type2" id = "go-button2">
+                            <button>GO</button>
+                        </div>
+                    </div>
+            </div>
             </footer>
 
 
